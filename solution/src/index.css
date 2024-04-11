@@ -74,7 +74,14 @@ input[type=text] {
   text-align:left;
 }
 
-table {border:solid 1px;min-height: 200px;}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
+table {border:solid 1px;}
 table th {background-color: #ccc;text-align: left;}
 
 tbody tr:nth-child(even) {
