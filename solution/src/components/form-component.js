@@ -100,7 +100,7 @@ export function FormComponent(){
                     </tr> 
                     </thead>
                     <tbody>
-                    {userData[0].userName !== 'undefined' && userData.map((user, index) => (
+                    {userData !== 'undefined' && userData.map((user, index) => (
                     <tr id={`user-${index}`} key={index}>
                         <td>{user.userName}</td>
                         <td>{user.location}</td>
